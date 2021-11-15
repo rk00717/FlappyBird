@@ -1,3 +1,11 @@
+
+/*
+    ##################################################################################################################
+        This script will responsible for the score management and to check if the bird is died or not if died 
+                   then the game will end and switch the screen between main lobby to game scene
+    ##################################################################################################################
+*/
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,26 +17,14 @@ public class GameControllerScript : MonoBehaviour{
 
     public bool isFinished = false;
 
-    private float nextTime = 0;
-    private float coolDown = 5f;
-
     [SerializeField]
     private TextMeshProUGUI board;
 
     void Update(){
-        if(isFinished && nextTime == 0){
+        if(isFinished){            
             isFinished = false;
-
+            
             EndGame();
-
-            nextTime = Time.time+coolDown;
-        }
-        if(Time.time > nextTime && isFinished){
-            isFinished = false;
-
-            EndGame();
-
-            nextTime = Time.time+coolDown;
         }
 
         board.text = "Score : " + scorePoints;

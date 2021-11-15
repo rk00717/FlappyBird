@@ -1,3 +1,9 @@
+/*
+    ##################################################################################################################
+                    This will switch from lobby scene to game scene when user play jump button
+    ##################################################################################################################
+*/
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

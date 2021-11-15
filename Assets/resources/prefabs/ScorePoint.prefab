@@ -133,3 +133,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: 50
+  sound: {fileID: 8300000, guid: 440722a7618426247b8dc84f8b633c16, type: 3}

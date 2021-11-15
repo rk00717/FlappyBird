@@ -1,3 +1,10 @@
+/*
+    ##################################################################################################################
+                    This will generate random location to spwan the pipes and make a gap for the 
+                                bird to pass through it at random places in th game.
+    ##################################################################################################################
+*/
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

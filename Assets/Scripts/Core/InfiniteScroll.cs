@@ -1,3 +1,10 @@
+/*
+    ##################################################################################################################
+            This script is the heart of the game. basically it will control entire movement of the game
+                e.g. The background, the ground, the score point and the pipe itself as configured 
+    ##################################################################################################################
+*/
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
